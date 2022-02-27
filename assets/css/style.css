@@ -11,6 +11,9 @@
 	--DarkGrey: #18191d;
 }
 
+/* navigation section */
+
+/* properties for logo */
 .Logo {
 	cursor: pointer;
 	margin-right: auto;
@@ -21,6 +24,7 @@
 	font-size: 28px;
 }
 
+/* properties for navigation */
 .nav_links {
 	display: flex;
 	justify-content: left;
@@ -43,6 +47,7 @@
 	cursor: pointer;
 }
 
+/* properties for menu icon */
 .burger {
 	display: none;
 	cursor: pointer;
@@ -55,6 +60,8 @@
 	margin: 5px;
 	border-radius: 3px;
 }
+
+/* responsive design elements */
 
 @media screen and (max-width: 1024px) {
 	.nav_links {
@@ -97,6 +104,15 @@
 	transform: translateX (0px);
 }
 
+/* main section */
+
+/* projects section */
+.Galleria_di_Bergamo {
+	display: flex;
+	margin: auto;
+	border-radius: 15px;
+}
+
 .image {
 	display: block;
 	margin-top: 50px;
@@ -105,6 +121,9 @@
 	width: 20%;
 	border-radius: 15px;
 }
+
+/* footer section */
+
 footer {
 	margin: 0.5%;
 	display: flex;
@@ -132,6 +151,8 @@ h2 {
 	transition: all 0.3s ease 0s;
 	border-radius: 10px;
 }
+
+/* modal pop-up section */
 
 .Modal-btn:hover {
 	background-color: var(--Purple);
