@@ -1,35 +1,48 @@
 * {
+	box-sizing: border-box;
 	margin: 0% padding 0%;
-	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-family: "Noto Serif Display", serif;
+	background-color: #18191d;
+	text-decoration: none;
+	--LightPurple: rgb(205, 141, 248);
+	--Purple: #a230ec;
+	--Blue: #498ca6;
+	--RoyalBlue: #001ca1;
 }
 
-.page {
-	background-color: rgb(249, 250, 255);
+.Logo {
+	cursor: pointer;
+}
+
+.nav_links {
+	list-style: none;
+}
+
+.nav_links li {
+	display: inline-block;
 }
 
 header {
-	text-align: left;
-	background-color: aliceblue;
-}
-nav {
-	background-color: aliceblue;
 	display: flex;
-	justify-content: left;
-	align-items: left;
-	color: aliceblue;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px, 10%;
 }
 nav ul {
 	list-style: square inside url("sqpurple.gif");
+	color: purple;
 }
 
 h1 {
-	margin: 45px;
-	padding: 20px;
+	margin: 50px;
+	padding: 3%;
+	color: var(--LightPurple);
 }
 
 h2 {
-	background-color: white;
+	padding: 3%;
 	margin: 50px;
+	color: var(--Purple);
 }
 .button {
 	display: flex;
@@ -42,18 +55,19 @@ h2 {
 	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 20%;
 	border-radius: 15px;
 }
 footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	color: var(--LightPurple);
 }
 
 .Modal-btn {
 	padding: 10px 30px;
-	background-color: aliceblue;
+	background-color: var(--Blue);
 	color: black;
 	border: none;
 	cursor: pointer;
@@ -82,7 +96,7 @@ footer {
 	position: relative;
 	background-color: white;
 	width: 30%;
-	height: 30%;
+	height: 50%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
