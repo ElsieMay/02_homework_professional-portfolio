@@ -8,6 +8,7 @@
 	--Purple: #a230ec;
 	--Blue: #498ca6;
 	--RoyalBlue: #001ca1;
+	--DarkGrey: #18191d;
 }
 
 .Logo {
@@ -16,31 +17,76 @@
 }
 
 .nav_links {
-	list-style: none;
-}
-
-.nav_links li {
-	display: inline-block;
-	padding: 0px, 20px;
-}
-
-.nav_links li a {
-	transition: all 0.3s ease 0s;
-	padding: 50px;
-	cursor: pointer;
-}
-
-header {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 	padding: 30px, 10%;
+	min-height: 8vh;
+}
+
+.nav_links li {
+	display: inline-block;
+}
+
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+	padding: 30px;
+	color: var(--LightPurple);
+}
+
+.nav_links:hover {
+	cursor: pointer;
+}
+
+.burger {
+	display: none;
+}
+
+.burger div {
+	width: 25px;
+	height: 3px;
+	background-color: #a230ec;
+	margin: 5px;
+	border-radius: 3px;
+}
+
+@media screen and (max-width: 1024px) {
+	.nav_links {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		overflow-x: hidden;
+	}
+	.nav_links {
+		position: absolute;
+		right: 0px;
+		height: 92vh;
+		top: 6vh;
+		background-color: var(--DarkGrey);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 50%;
+		transform: translateX(100%);
+	}
+	.nav_links li {
+		opacity: 0;
+	}
+	.burger {
+		display: block;
+	}
 }
 
 h1 {
-	margin: 50px;
+	margin: 20px;
 	padding: 3%;
 	color: var(--LightPurple);
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 28px;
 }
 
 h2 {
@@ -68,7 +114,7 @@ footer {
 .Modal-btn {
 	margin-left: 30px;
 	padding: 10px 30px;
-	background-color: var(--Blue);
+	background-color: var(--RoyalBlue);
 	color: black;
 	border: none;
 	cursor: pointer;
@@ -77,7 +123,7 @@ footer {
 }
 
 .Modal-btn:hover {
-	background-color: var(--RoyalBlue);
+	background-color: var(--Purple);
 }
 
 .modal-bg {
@@ -101,18 +147,20 @@ footer {
 
 .modal {
 	position: relative;
-	background-color: white;
+	background-color: var(--DarkGrey);
+	color: var(--LightPurple);
 	width: 30%;
 	height: 50%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
+	border-radius: 20px;
 }
 .modal button {
 	padding: 10px 30px;
-	background-color: var(--RoyalBlue);
-	color: black;
+	background-color: var(--Purple);
+	color: white;
 	border: none;
 	cursor: pointer;
 	border-radius: 10px;
