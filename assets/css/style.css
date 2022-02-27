@@ -47,10 +47,12 @@ header {
 	transition: all 0.3s ease 0s;
 	padding: 30px;
 	color: var(--LightPurple);
+	cursor: pointer;
 }
 
-.nav_links:hover {
-	cursor: pointer;
+.nav_links:hover li a {
+	color: var(--Purple);
+	text-decoration: underline;
 }
 
 /* properties for menu icon */
@@ -134,6 +136,7 @@ header {
 	color: var(--Blue);
 	font-size: 14px;
 	font-style: normal;
+	text-align: center;
 }
 
 .Galleria_di_Bergamo {
@@ -188,7 +191,7 @@ h2 {
 }
 
 .Modal-btn {
-	margin-left: 30px, 10px;
+	margin-left: 40px, 40px;
 	padding: 10px 30px;
 	background-color: var(--RoyalBlue);
 	color: black;
