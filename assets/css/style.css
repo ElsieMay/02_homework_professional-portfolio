@@ -116,6 +116,18 @@ header {
 	display: flex;
 	margin: auto;
 	border-radius: 15px;
+	width: 60%;
+}
+.Lingui {
+	display: flex;
+	margin: auto;
+	border-radius: 15px;
+	width: 50%;
+}
+.succulents {
+	display: flex;
+	margin: auto;
+	border-radius: 15px;
 	width: 50%;
 }
 
