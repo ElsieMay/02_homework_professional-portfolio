@@ -14,6 +14,11 @@
 /* navigation section */
 
 /* properties for logo */
+
+header {
+	display: flex;
+}
+
 .Logo {
 	cursor: pointer;
 	margin-right: auto;
@@ -27,7 +32,7 @@
 /* properties for navigation */
 .nav_links {
 	display: flex;
-	justify-content: left;
+	justify-content: right;
 	align-items: center;
 	padding: 30px, 10%;
 	min-height: 8vh;
@@ -111,6 +116,7 @@
 	display: flex;
 	margin: auto;
 	border-radius: 15px;
+	width: 50%;
 }
 
 .image {
