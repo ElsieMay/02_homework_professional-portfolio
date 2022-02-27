@@ -22,7 +22,7 @@ header {
 .Logo {
 	cursor: pointer;
 	margin-right: auto;
-	padding: 3%;
+	padding: 1em;
 	color: var(--LightPurple);
 	text-transform: uppercase;
 	letter-spacing: 5px;
@@ -128,19 +128,22 @@ header {
 	display: flex;
 	margin: auto;
 	border-radius: 15px;
-	width: 60%;
+	width: 100%;
+	object-fit: cover;
 }
 .Lingui {
 	display: flex;
 	margin: auto;
 	border-radius: 15px;
-	width: 50%;
+	width: 100%;
+	object-fit: cover;
 }
 .succulents {
 	display: flex;
 	margin: auto;
 	border-radius: 15px;
-	width: 50%;
+	width: 100%;
+	object-fit: cover;
 }
 
 .image {
@@ -148,7 +151,8 @@ header {
 	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 20%;
+	width: 50%;
+	object-fit: cover;
 	border-radius: 15px;
 }
 
