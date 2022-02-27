@@ -112,6 +112,18 @@ header {
 /* main section */
 
 /* projects section */
+
+.main_content {
+	max-width: 100rem;
+	margin-inline: auto;
+	padding-inline: 2rem;
+}
+.portfolio {
+}
+
+.card_description {
+}
+
 .Galleria_di_Bergamo {
 	display: flex;
 	margin: auto;
