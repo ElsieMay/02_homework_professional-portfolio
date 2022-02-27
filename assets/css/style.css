@@ -36,6 +36,7 @@ header {
 	align-items: center;
 	padding: 30px, 10%;
 	min-height: 8vh;
+	font-size: 18px;
 }
 
 .nav_links li {
@@ -121,7 +122,18 @@ header {
 .portfolio {
 }
 
+.card {
+	margin: 50px;
+}
+
+.card_title {
+	font-size: 18px;
+}
+
 .card_description {
+	color: var(--Blue);
+	font-size: 14px;
+	font-style: normal;
 }
 
 .Galleria_di_Bergamo {
