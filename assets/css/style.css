@@ -143,6 +143,8 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 20px;
+	justify-content: center;
+	align-items: center;
 }
 
 .card_content {
@@ -164,11 +166,6 @@ h1 {
 	display: flex;
 	border-radius: 15px;
 	width: 100%;
-}
-
-.image {
-	width: 30%;
-	border-radius: 15px;
 }
 
 .holding_container {
