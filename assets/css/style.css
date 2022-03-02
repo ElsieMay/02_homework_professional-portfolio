@@ -105,6 +105,9 @@ header {
 	.holding_container {
 		flex-direction: column;
 	}
+	.holding_container img {
+		width: 50%;
+	}
 }
 
 .nav-active {
@@ -117,17 +120,63 @@ header {
 
 /* main section */
 
+h1 {
+	font-size: 28px;
+	font-weight: bold;
+	color: var(--Purple);
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	text-decoration: underline;
+}
+
 /* projects section */
 
 .main_content {
 	max-width: 100rem;
 	margin-inline: auto;
-	padding-inline: 2rem;
 }
+.card {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.card_content {
+	display: flex;
+}
+
+.card_title {
+	font-size: 18px;
+}
+
+.card_description {
+	color: var(--Blue);
+	font-size: 14px;
+	font-style: normal;
+	text-align: center;
+}
+
+.Galleria_di_Bergamo {
+	display: flex;
+	border-radius: 15px;
+	width: 100%;
+}
+
+.image {
+	width: 30%;
+	border-radius: 15px;
+}
+
 .holding_container {
 	width: 100%;
 	display: flex;
-	background: #001ca1;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.holding_container img {
+	max-height: 510px;
 }
 
 .internalcontainerL {
@@ -144,49 +193,9 @@ header {
 	font-size: 14px;
 	font-weight: bold;
 	color: var(--Blue);
-}
-
-.card {
-	display: flex;
 	padding: 10px;
-	flex-direction: column;
-	grid-template-columns: repeat(2, auto);
-	gap: 3em;
-	margin-bottom: 8em;
-}
-
-.card_content {
-	display: flex;
-}
-
-.card_content_two_img img {
-	width: 50%;
-	height: 500px;
-}
-
-.card_right {
-	grid-template-areas: "left right";
-}
-
-.card_title {
-	font-size: 18px;
-}
-
-.card_description {
-	color: var(--Blue);
-	font-size: 14px;
-	font-style: normal;
-	text-align: center;
-}
-
-.Galleria_di_Bergamo {
-	display: flex;
-	margin: auto;
 	border-radius: 15px;
-	width: 100%;
-	object-fit: cover;
 }
-
 .succulents {
 	padding: 10px;
 	border-radius: 15px;
@@ -197,10 +206,7 @@ header {
 	border-radius: 15px;
 }
 
-.image {
-	width: 30%;
-	border-radius: 15px;
-}
+/* About Me Section */
 
 .about_me_holding {
 	display: flex;
