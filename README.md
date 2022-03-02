@@ -19,7 +19,7 @@ The project can be viewed via this link, https://elsiemay.github.io/01_homework_
 
 The deployed application can be viewed via this link, https://elsiemay.github.io/01_homework_code-refractor/#search-engine-optimization.
 
-The Github repository can be viewed via this link, https://github.com/ElsieMay/01_homework_code-refractor.
+The Github repository can be viewed via this link, https://github.com/ElsieMay/02_homework_professional-portfolio.
 
 ![Screenshots](https://github.com/ElsieMay/01_homework_code-refractor/blob/main/assets/images/Screen%20Shot%202022-02-20%20at%201.37.45%20pm.png)
 
@@ -29,18 +29,15 @@ The Github repository can be viewed via this link, https://github.com/ElsieMay/0
 
 ## Credits
 
-I was aided by the BCS Learning assistant, David and Val. They instructed me well.
+I was aided by the BCS Learning assistants Erik and Anders. They instructed me well.
 
-I followed these links for tutorials and additional information:
+I followed these links for tutorials and additional information;
 
-https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element
-https://www.w3schools.com/tags/att_meta_charset.asp
-https://www.youtube.com/watch?v=ZThq93Yuwd0
-https://developer.mozilla.org/en-US/docs/Glossary/Semantics
-https://www.w3schools.com/css/css_comments.asp
-https://www.w3.org/standards/webdesign/accessibility
-https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
+https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+https://stackoverflow.com/questions/4191651/css-ahover-image-borders
+https://www.w3schools.com/howto/howto_css_image_text.asp
+https://www.youtube.com/watch?v=gCPWMXC1ZDc
 
 ## License
 
