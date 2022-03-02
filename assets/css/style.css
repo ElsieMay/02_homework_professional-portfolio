@@ -166,6 +166,12 @@ h1 {
 	display: flex;
 	border-radius: 15px;
 	width: 100%;
+	border: solid 7px transparent;
+}
+
+.Galleria_di_Bergamo:hover {
+	cursor: pointer;
+	border-color: var(--Purple);
 }
 
 .holding_container {
@@ -193,17 +199,27 @@ h1 {
 	font-size: 14px;
 	font-weight: bold;
 	color: var(--Blue);
-	padding: 10px;
-	border-radius: 15px;
 }
 .succulents {
-	padding: 10px;
+	margin: 10px;
 	border-radius: 15px;
+	border: solid 7px transparent;
+}
+
+.succulents:hover {
+	cursor: pointer;
+	border-color: var(--Purple);
 }
 
 .Lingui {
-	padding: 10px;
+	margin: 10px;
 	border-radius: 15px;
+	border: solid 7px transparent;
+}
+
+.Lingui:hover {
+	cursor: pointer;
+	border-color: var(--Purple);
 }
 
 /* About Me Section */
@@ -222,6 +238,12 @@ h1 {
 	text-align: center;
 	padding: 30px;
 	max-width: 50%;
+}
+
+/* Portrait image properties */
+.image {
+	width: 40%;
+	border-radius: 15px;
 }
 
 /* footer section */
