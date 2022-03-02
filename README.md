@@ -13,19 +13,19 @@ I learnt about code responsive design, media queries, a little bit of JavaScript
 
 ## Installation
 
-The project can be viewed via this link, https://elsiemay.github.io/01_homework_code-refractor/#search-engine-optimization. There is no installation required.
+The project can be viewed via this link, https://elsiemay.github.io/02_homework_professional-portfolio/index.html. There is no installation required.
 
 ## Usage
 
-The deployed application can be viewed via this link, https://elsiemay.github.io/01_homework_code-refractor/#search-engine-optimization.
+The deployed application can be viewed via this link, https://elsiemay.github.io/02_homework_professional-portfolio/index.html.
 
 The Github repository can be viewed via this link, https://github.com/ElsieMay/02_homework_professional-portfolio.
 
-![Screenshots](https://github.com/ElsieMay/01_homework_code-refractor/blob/main/assets/images/Screen%20Shot%202022-02-20%20at%201.37.45%20pm.png)
+<img src="images/Screen Shot 2022-03-03 at 12.10.46 am"
 
-![Screenshots](https://github.com/ElsieMay/01_homework_code-refractor/blob/main/assets/images/Screen%20Shot%202022-02-20%20at%201.37.55%20pm.png)
+![Screenshots]()
 
-![Screenshots](https://github.com/ElsieMay/01_homework_code-refractor/blob/main/assets/images/Screen%20Shot%202022-02-20%20at%201.38.02%20pm.png)
+![Screenshots]()
 
 ## Credits
 
