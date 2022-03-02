@@ -132,7 +132,6 @@ header {
 
 .internalcontainerL {
 	flex: 1;
-	background-color: #a230ec;
 	padding: 30px;
 	font-size: 14px;
 	font-weight: bold;
@@ -141,7 +140,6 @@ header {
 
 .internalcontainerR {
 	flex: 1;
-	background-color: var(--RoyalBlue);
 	padding: 30px;
 	font-size: 14px;
 	font-weight: bold;
@@ -181,21 +179,6 @@ header {
 	text-align: center;
 }
 
-.top-left-text {
-	color: var(--Purple);
-	font-size: 20px;
-	text-align: center;
-}
-
-.top-right-text {
-	color: var(--Purple);
-	font-size: 20px;
-	text-align: center;
-}
-
-.Titles {
-}
-
 .Galleria_di_Bergamo {
 	display: flex;
 	margin: auto;
@@ -215,13 +198,24 @@ header {
 }
 
 .image {
-	display: block;
-	margin-top: 50px;
-	margin-left: auto;
-	margin-right: auto;
 	width: 30%;
-	object-fit: cover;
 	border-radius: 15px;
+}
+
+.about_me_holding {
+	display: flex;
+	justify-content: center;
+}
+
+.about_me {
+	display: flex;
+	justify-content: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: var(--Blue);
+	text-align: center;
+	padding: 20px;
+	max-width: 50%;
 }
 
 /* footer section */
