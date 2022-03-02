@@ -108,6 +108,9 @@ header {
 	.holding_container img {
 		width: 50%;
 	}
+	.about_me_holding img {
+		width: 50%;
+	}
 }
 
 .nav-active {
@@ -172,7 +175,7 @@ h1 {
 	width: 100%;
 	display: flex;
 	align-items: center;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 .holding_container img {
@@ -220,7 +223,7 @@ h1 {
 	font-weight: bold;
 	color: var(--Blue);
 	text-align: center;
-	padding: 20px;
+	padding: 30px;
 	max-width: 50%;
 }
 
