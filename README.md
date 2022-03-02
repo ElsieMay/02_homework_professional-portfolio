@@ -23,9 +23,13 @@ The Github repository can be viewed via this link, https://github.com/ElsieMay/0
 
 <img src="images/Screen Shot 2022-03-03 at 12.10.46 am"
 
-![Screenshots]()
+![Screenshots](https://github.com/ElsieMay/02_homework_professional-portfolio/blob/main/images/Screen%20Shot%202022-03-03%20at%2012.10.46%20am.png)
 
-![Screenshots]()
+![Screenshots](https://github.com/ElsieMay/02_homework_professional-portfolio/blob/main/images/Screen%20Shot%202022-03-03%20at%2012.10.56%20am.png)
+
+![Screenshots](https://github.com/ElsieMay/02_homework_professional-portfolio/blob/main/images/Screen%20Shot%202022-03-03%20at%2012.11.07%20am.png)
+
+! [Screenshots] (https://github.com/ElsieMay/02_homework_professional-portfolio/blob/main/images/Screen%20Shot%202022-03-03%20at%2012.11.19%20am.png)
 
 ## Credits
 
