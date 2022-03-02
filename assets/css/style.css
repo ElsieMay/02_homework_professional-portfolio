@@ -102,6 +102,9 @@ header {
 		display: block;
 		cursor: pointer;
 	}
+	.holding_container {
+		flex-direction: column;
+	}
 }
 
 .nav-active {
@@ -121,11 +124,50 @@ header {
 	margin-inline: auto;
 	padding-inline: 2rem;
 }
-.portfolio {
+.holding_container {
+	width: 100%;
+	display: flex;
+	background: #001ca1;
+}
+
+.internalcontainerL {
+	flex: 1;
+	background-color: #a230ec;
+	padding: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	color: var(--Blue);
+}
+
+.internalcontainerR {
+	flex: 1;
+	background-color: var(--RoyalBlue);
+	padding: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	color: var(--Blue);
 }
 
 .card {
-	margin: 50px;
+	display: flex;
+	padding: 10px;
+	flex-direction: column;
+	grid-template-columns: repeat(2, auto);
+	gap: 3em;
+	margin-bottom: 8em;
+}
+
+.card_content {
+	display: flex;
+}
+
+.card_content_two_img img {
+	width: 50%;
+	height: 500px;
+}
+
+.card_right {
+	grid-template-areas: "left right";
 }
 
 .card_title {
@@ -139,6 +181,21 @@ header {
 	text-align: center;
 }
 
+.top-left-text {
+	color: var(--Purple);
+	font-size: 20px;
+	text-align: center;
+}
+
+.top-right-text {
+	color: var(--Purple);
+	font-size: 20px;
+	text-align: center;
+}
+
+.Titles {
+}
+
 .Galleria_di_Bergamo {
 	display: flex;
 	margin: auto;
@@ -146,19 +203,15 @@ header {
 	width: 100%;
 	object-fit: cover;
 }
-.Lingui {
-	display: flex;
-	margin: auto;
-	border-radius: 15px;
-	width: 100%;
-	object-fit: cover;
-}
+
 .succulents {
-	display: flex;
-	margin: auto;
+	padding: 10px;
 	border-radius: 15px;
-	width: 100%;
-	object-fit: cover;
+}
+
+.Lingui {
+	padding: 10px;
+	border-radius: 15px;
 }
 
 .image {
@@ -166,7 +219,7 @@ header {
 	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 30%;
 	object-fit: cover;
 	border-radius: 15px;
 }
