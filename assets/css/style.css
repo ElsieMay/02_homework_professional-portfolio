@@ -111,6 +111,11 @@ header {
 	.about_me_holding img {
 		width: 50%;
 	}
+	.holding_container_movie {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
 }
 
 .nav-active {
@@ -152,7 +157,6 @@ h1 {
 .card {
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 20px;
 	justify-content: center;
 	align-items: center;
 }
@@ -163,12 +167,31 @@ h1 {
 
 .card_title {
 	font-size: 18px;
+	text-align: center;
+}
+
+.card_title_movie {
+	font-size: 18px;
+	text-align: center;
+	margin: none;
+}
+
+.card_title_galleria {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 50px;
 }
 
 .card_description {
 	color: var(--Blue);
 	font-size: 14px;
 	font-style: normal;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.small_card_description {
+	margin-bottom: 80px;
 	text-align: center;
 }
 
@@ -195,6 +218,32 @@ h1 {
 	max-height: 510px;
 }
 
+.holding_container_movie {
+	display: flex;
+	justify-content: center;
+}
+
+.holding_container_movie img {
+	max-height: 510px;
+}
+
+.internalcontainer1 {
+	font-size: 14px;
+	font-weight: bold;
+	color: var(--Blue);
+}
+
+.internalcontainer2 {
+	font-size: 14px;
+	font-weight: bold;
+	color: var(--Blue);
+}
+
+.internalcontainer3 {
+	font-size: 14px;
+	font-weight: bold;
+	color: var(--Blue);
+}
 .internalcontainerL {
 	flex: 1;
 	padding: 30px;
