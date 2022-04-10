@@ -128,9 +128,9 @@ h1 {
 	font-weight: bold;
 	color: var(--Purple);
 	padding: 10px;
+	text-decoration: underline;
 	display: flex;
 	justify-content: center;
-	text-decoration: underline;
 }
 
 /* projects section */
@@ -200,6 +200,10 @@ h1 {
 	font-weight: bold;
 	color: var(--Blue);
 }
+
+a {
+	color: var(--Blue);
+}
 .succulents {
 	margin: 10px;
 	border-radius: 15px;
@@ -227,22 +231,36 @@ h1 {
 .about_me_holding {
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 .about_me {
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 	font-size: 14px;
 	font-weight: bold;
 	color: var(--Blue);
 	text-align: center;
 	padding: 30px;
-	max-width: 50%;
+	margin-bottom: 20px;
+}
+
+.resume_download {
+	font-size: medium;
+	color: var(--Purple);
+}
+
+.resume_download:hover {
+	cursor: pointer;
+	text-decoration: underline;
 }
 
 /* Portrait image properties */
 .image {
-	width: 40%;
+	width: 20%;
+	height: 20%;
 	border-radius: 15px;
 }
 
@@ -268,12 +286,21 @@ h2 {
 .Modal-btn {
 	margin-left: 40px, 40px;
 	padding: 10px 30px;
+	font-size: 18px;
 	background-color: var(--RoyalBlue);
-	color: black;
+	color: white;
 	border: none;
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
 	border-radius: 10px;
+}
+
+h3 {
+	display: flex;
+	justify-content: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: var(--Blue);
 }
 
 /* modal pop-up section */
