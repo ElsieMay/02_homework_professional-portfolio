@@ -135,6 +135,16 @@ h1 {
 
 /* projects section */
 
+.repository_link {
+	color: var(--Purple);
+	font-size: medium;
+}
+
+.repository_link:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
 .main_content {
 	max-width: 100rem;
 	margin-inline: auto;
@@ -162,14 +172,14 @@ h1 {
 	text-align: center;
 }
 
-.Galleria_di_Bergamo {
+.image_large {
 	display: flex;
 	border-radius: 15px;
 	width: 100%;
 	border: solid 7px transparent;
 }
 
-.Galleria_di_Bergamo:hover {
+.image_large:hover {
 	cursor: pointer;
 	border-color: var(--Purple);
 }
