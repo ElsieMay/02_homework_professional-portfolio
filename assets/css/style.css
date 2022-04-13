@@ -128,6 +128,11 @@ header {
 
 /* main section */
 
+#carousel_section {
+	display: flex;
+	justify-content: center;
+}
+
 .carousel {
 	overflow: hidden;
 	max-width: 1300px;
@@ -135,10 +140,6 @@ header {
 }
 
 .carousel .carousel_card {
-	display: none;
-}
-
-.carousel .carousel_card--visible {
 	display: none;
 }
 
@@ -153,6 +154,7 @@ header {
 }
 
 .carousel .carousel_actions {
+	background: none;
 	display: flex;
 	width: 100%;
 	justify-content: space-between;

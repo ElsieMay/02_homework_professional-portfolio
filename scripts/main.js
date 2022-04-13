@@ -12,20 +12,30 @@ document.getElementById("previous").addEventListener("click", function () {
 	moveToPreviousSlide();
 });
 
+function updateSlidePosition() {
+	for (let slide of slides) {
+		slide.classList.remove("carousel_card--visible");
+		slide.classList.add("carousel_card--hidden");
+	}
+	slides[slidePosition].classList.add("carousel_card--visible");
+}
+
 function moveToNextSlide() {
-	if (slidePosition === totalSlides) {
+	if (slidePosition === totalSlides - 1) {
 		slidePosition = 0;
 	} else {
 		slidePosition++;
 	}
+	updateSlidePosition();
 }
 
 function moveToPreviousSlide() {
 	if (slidePosition === 0) {
-		slidePosition = 0;
+		slidePosition = totalSlides - 1;
 	} else {
 		slidePosition--;
 	}
+	updateSlidePosition();
 }
 
 Modalbtn.addEventListener("click", function () {
