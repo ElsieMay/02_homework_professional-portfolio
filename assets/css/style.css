@@ -1,10 +1,3 @@
-:root {
-	--card-width: 200px;
-	--card-height: 300px;
-	--card-transition-duration: 800ms;
-	--card-transition-easing: ease;
-}
-
 * {
 	box-sizing: border-box;
 	margin: 0% padding 0%;
@@ -135,60 +128,47 @@ header {
 
 /* main section */
 
-button {
-	border: none;
-	background: none;
-	cursor: pointer;
-}
-button:focus {
-	outline: none;
-	border: none;
+.carousel {
+	overflow: hidden;
+	max-width: 1300px;
+	position: relative;
 }
 
-.carousel_cards {
-	position: relative;
+.carousel .carousel_card {
+	display: none;
+}
+
+.carousel .carousel_card--visible {
+	display: none;
+}
+
+.carousel .carousel_card img {
 	width: 100%;
-	height: 100%;
+	max-width: 1300px;
+	height: auto;
+}
+
+.carousel .carousel_card--visible {
+	display: block;
+}
+
+.carousel .carousel_actions {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.app__bg {
-	position: absolute;
 	width: 100%;
-	height: 100%;
-	z-index: -5;
-	filter: blur(8px);
-	pointer-events: none;
-	user-select: none;
-	overflow: hidden;
-}
-.app__bg::before {
-	content: "";
+	justify-content: space-between;
 	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background: #000;
-	z-index: 1;
-	opacity: 0.8;
-}
-.app__bg__image {
-	position: absolute;
-	left: 50%;
 	top: 50%;
-	transform: translate(-50%, -50%) translateX(var(--image-translate-offset, 0));
-	width: 180%;
-	height: 180%;
-	transition: transform 1000ms ease, opacity 1000ms ease;
-	overflow: hidden;
+	transform: translateY(-50%);
 }
-.app__bg__image img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+
+.carousel .carousel_actions .arrow {
+	border-radius: 10px;
+	color: var(--Blue);
+	width: 40px;
+	height: 40px;
+	margin: 0 20px;
 }
+
 h1 {
 	font-size: 28px;
 	font-weight: bold;
