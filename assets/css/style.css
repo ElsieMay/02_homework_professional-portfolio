@@ -32,7 +32,7 @@ header {
 }
 
 /* properties for navigation */
-.nav_links {
+.nav-links {
 	display: flex;
 	justify-content: right;
 	align-items: center;
