@@ -123,14 +123,13 @@ header {
 	.card_description {
 		margin: 30px;
 	}
+	.carousel .carousel_actions {
+		top: 100px !important;
+	}
 }
 
 .nav-active {
 	transform: translateX(0%);
-}
-
-@keyframes navLinkFade {
-	transform: translateX (0px);
 }
 
 /* main section */
@@ -219,12 +218,13 @@ h1 {
 .card_title {
 	font-size: 18px;
 	text-align: center;
+	margin-top: 60px;
 }
 
 .card_title_movie {
 	font-size: 18px;
 	text-align: center;
-	margin: none;
+	margin-top: 60px;
 }
 
 .card_title_galleria {
