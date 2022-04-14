@@ -2,7 +2,7 @@ var Modalbtn = document.querySelector(".Modal-btn");
 var modalbg = document.querySelector(".modal-bg");
 var modalclose = document.querySelector(".modal-close");
 let slidePosition = 0;
-const slides = document.getElementsByClassName("carousel_card");
+const slides = document.getElementsByClassName("carousel-card");
 const totalSlides = slides.length;
 
 Modalbtn.addEventListener("click", function () {
@@ -13,8 +13,8 @@ modalclose.addEventListener("click", function () {
 });
 const navslide = () => {
 	const burger = document.querySelector(".burger");
-	const nav = document.querySelector(".nav_links");
-	const nav_links = document.querySelectorAll(".nav_links li");
+	const nav = document.querySelector(".nav-links");
+	const nav_links = document.querySelectorAll(".nav-links li");
 	//Toggle Nav
 	burger.addEventListener("click", function () {
 		nav.classList.toggle("nav-active");
@@ -36,10 +36,10 @@ document.getElementById("previous").addEventListener("click", function () {
 
 function updateSlidePosition() {
 	for (let slide of slides) {
-		slide.classList.remove("carousel_card--visible");
-		slide.classList.add("carousel_card--hidden");
+		slide.classList.remove("carousel-card--visible");
+		slide.classList.add("carousel-card--hidden");
 	}
-	slides[slidePosition].classList.add("carousel_card--visible");
+	slides[slidePosition].classList.add("carousel-card--visible");
 }
 
 function moveToNextSlide() {

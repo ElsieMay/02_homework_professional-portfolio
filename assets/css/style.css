@@ -41,18 +41,18 @@ header {
 	font-size: 18px;
 }
 
-.nav_links li {
+.nav-links li {
 	display: inline-block;
 }
 
-.nav_links li a {
+.nav-links li a {
 	transition: all 0.3s ease 0s;
 	padding: 30px;
 	color: var(--LightPurple);
 	cursor: pointer;
 }
 
-.nav_links:hover li a {
+.nav-links:hover li a {
 	color: var(--Purple);
 	text-decoration: underline;
 }
@@ -74,7 +74,7 @@ header {
 /* responsive design elements */
 
 @media screen and (max-width: 1024px) {
-	.nav_links {
+	.nav-links {
 		width: 60%;
 	}
 }
@@ -83,7 +83,7 @@ header {
 	body {
 		overflow-x: hidden;
 	}
-	.nav_links {
+	.nav-links {
 		position: absolute;
 		right: 0px;
 		height: 92vh;
@@ -97,7 +97,7 @@ header {
 		transform: translateX(100%);
 		transition: transform 0.5s ease-in;
 	}
-	.nav_links li {
+	.nav-links li {
 		opacity: 100;
 		display: flex;
 	}
@@ -106,24 +106,24 @@ header {
 		display: block;
 		cursor: pointer;
 	}
-	.holding_container {
+	.holding-container {
 		flex-direction: column;
 	}
-	.holding_container img {
+	.holding-container img {
 		width: 50%;
 	}
-	.about_me_holding img {
+	.about-me-holding img {
 		width: 50%;
 	}
-	.holding_container_movie {
+	.holding-container-movie {
 		display: flex;
 		align-items: center;
 		flex-direction: column;
 	}
-	.card_description {
+	.card-description {
 		margin: 30px;
 	}
-	.carousel .carousel_actions {
+	.carousel .carousel-actions {
 		top: 100px !important;
 	}
 }
@@ -134,7 +134,7 @@ header {
 
 /* main section */
 
-#carousel_section {
+#carousel-section {
 	display: flex;
 	justify-content: center;
 }
@@ -145,21 +145,21 @@ header {
 	position: relative;
 }
 
-.carousel .carousel_card {
+.carousel .carousel-card {
 	display: none;
 }
 
-.carousel .carousel_card img {
+.carousel .carousel-card img {
 	width: 100%;
 	max-width: 1300px;
 	height: auto;
 }
 
-.carousel .carousel_card--visible {
+.carousel .carousel-card--visible {
 	display: block;
 }
 
-.carousel .carousel_actions {
+.carousel .carousel-actions {
 	background: none;
 	display: flex;
 	width: 100%;
@@ -169,7 +169,7 @@ header {
 	transform: translateY(-50%);
 }
 
-.carousel .carousel_actions .arrow {
+.carousel .carousel-actions .arrow {
 	border-radius: 10px;
 	color: var(--Blue);
 	width: 40px;
@@ -190,17 +190,17 @@ h1 {
 
 /* projects section */
 
-.repository_link {
+.repository-link {
 	color: var(--Purple);
 	font-size: medium;
 }
 
-.repository_link:hover {
+.repository-link:hover {
 	cursor: pointer;
 	text-decoration: underline;
 }
 
-.main_content {
+.main-content {
 	max-width: 100rem;
 	margin-inline: auto;
 }
@@ -211,29 +211,29 @@ h1 {
 	align-items: center;
 }
 
-.card_content {
+.card-content {
 	display: flex;
 }
 
-.card_title {
+.card-title {
 	font-size: 18px;
 	text-align: center;
 	margin-top: 60px;
 }
 
-.card_title_movie {
+.card-title-movie {
 	font-size: 18px;
 	text-align: center;
 	margin-top: 60px;
 }
 
-.card_title_galleria {
+.card-title-galleria {
 	font-size: 18px;
 	text-align: center;
 	margin-bottom: 50px;
 }
 
-.card_description {
+.card-description {
 	color: var(--Blue);
 	font-size: 14px;
 	font-style: normal;
@@ -242,42 +242,44 @@ h1 {
 	margin-top: 20px;
 }
 
-.small_card_description {
+.small-card-description {
 	margin-bottom: 80px;
+	margin-left: 30px;
+	margin-right: 30px;
 	text-align: center;
 	color: var(--Blue);
 	font-size: 14px;
 }
 
-.image_large {
+.image-large {
 	display: flex;
 	border-radius: 15px;
 	width: 100%;
 	border: solid 7px transparent;
 }
 
-.image_large:hover {
+.image-large:hover {
 	cursor: pointer;
 	border-color: var(--Purple);
 }
 
-.holding_container {
+.holding-container {
 	width: 100%;
 	display: flex;
 	align-items: center;
 	margin-bottom: 100px;
 }
 
-.holding_container img {
+.holding-container img {
 	max-height: 510px;
 }
 
-.holding_container_movie {
+.holding-container-movie {
 	display: flex;
 	justify-content: center;
 }
 
-.holding_container_movie img {
+.holding-container-movie img {
 	max-height: 510px;
 }
 
@@ -341,14 +343,14 @@ a {
 
 /* About Me Section */
 
-.about_me_holding {
+.about-me-holding {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
 }
 
-.about_me {
+.about-me {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -360,12 +362,12 @@ a {
 	margin-bottom: 20px;
 }
 
-.resume_download {
+.resume-download {
 	font-size: medium;
 	color: var(--Purple);
 }
 
-.resume_download:hover {
+.resume-download:hover {
 	cursor: pointer;
 	text-decoration: underline;
 }
