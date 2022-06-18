@@ -21,6 +21,7 @@ header {
 	margin-right: 40px;
 }
 
+/* logo properties */
 .Logo {
 	cursor: pointer;
 	margin-right: auto;
@@ -72,7 +73,6 @@ header {
 }
 
 /* responsive design elements */
-
 @media screen and (max-width: 1024px) {
 	.nav-links {
 		width: 60%;
@@ -81,7 +81,7 @@ header {
 		width: 900px;
 	}
 }
-
+/* responsive elements on small screen */
 @media screen and (max-width: 768px) {
 	body {
 		overflow-x: hidden;
@@ -140,6 +140,7 @@ header {
 
 /* main section */
 
+/* properties for carousel cards */
 #carousel-section-tech {
 	display: flex;
 	justify-content: center;
@@ -183,6 +184,7 @@ header {
 	margin: 0 20px;
 }
 
+/* properties for carousel cards */
 #carousel-section {
 	display: flex;
 	justify-content: center;
@@ -231,6 +233,7 @@ header {
 	margin: 0 auto;
 }
 
+/* properties for h1 titles */
 h1 {
 	font-size: 28px;
 	font-weight: bold;
@@ -243,7 +246,6 @@ h1 {
 }
 
 /* projects section */
-
 .repository-link {
 	color: var(--Purple);
 	font-size: medium;
@@ -258,6 +260,8 @@ h1 {
 	max-width: 100rem;
 	margin-inline: auto;
 }
+
+/* properties for cards */
 .card {
 	display: flex;
 	flex-direction: column;
@@ -305,6 +309,7 @@ h1 {
 	font-size: 14px;
 }
 
+/* properties for images */
 .image-large {
 	display: flex;
 	border-radius: 15px;
@@ -317,6 +322,7 @@ h1 {
 	border-color: var(--Purple);
 }
 
+/* properties for card containers */
 .holding-container {
 	width: 100%;
 	display: flex;
@@ -373,6 +379,8 @@ h1 {
 a {
 	color: var(--Blue);
 }
+
+/* properties for succulents project section */
 .succulents {
 	margin: 10px;
 	border-radius: 15px;
@@ -384,6 +392,7 @@ a {
 	border-color: var(--Purple);
 }
 
+/* properties for Lingui project section */
 .Lingui {
 	margin: 10px;
 	border-radius: 15px;
@@ -396,7 +405,6 @@ a {
 }
 
 /* About Me Section */
-
 .about-me-holding {
 	display: flex;
 	justify-content: center;
@@ -416,6 +424,7 @@ a {
 	margin-bottom: 20px;
 }
 
+/* properties for resume link */
 .resume-download {
 	font-size: medium;
 	color: var(--Purple);
@@ -443,6 +452,7 @@ footer {
 	color: var(--LightPurple);
 }
 
+/* properties for h2 subtitles */
 h2 {
 	padding: 3%;
 	color: var(--Purple);
@@ -464,6 +474,7 @@ h2 {
 	border-radius: 10px;
 }
 
+/* properties for h3 subtitles */
 h3 {
 	display: flex;
 	justify-content: center;
@@ -473,7 +484,6 @@ h3 {
 }
 
 /* modal pop-up section */
-
 .Modal-btn:hover {
 	background-color: var(--Purple);
 }
