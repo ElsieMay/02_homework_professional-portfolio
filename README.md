@@ -8,6 +8,7 @@ I learnt about code responsive design, media queries, a little bit of JavaScript
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Demo](#demo)
 - [Credits](#credits)
 - [License](#license)
 
@@ -19,15 +20,11 @@ The project can be viewed via this link, https://elsiemay.github.io/02_homework_
 
 The deployed application can be viewed via this link, https://elsiemay.github.io/02_homework_professional-portfolio/index.html.
 
+## Demo
+
+A demonstration of the deployed application can be viewed via this link, https://drive.google.com/file/d/1SV9mVmfQ79QO2gIiHXz30hBUUXMD8tVC/view.
+
 The Github repository can be viewed via this link, https://github.com/ElsieMay/02_homework_professional-portfolio.
-
-![Screenshots](https://github.com/ElsieMay/02_homework_professional-portfolio/blob/main/images/Screen%20Shot%202022-03-03%20at%2012.10.46%20am.png)
-
-![Screenshots](https://github.com/ElsieMay/02_homework_professional-portfolio/blob/main/images/Screen%20Shot%202022-03-03%20at%2012.10.56%20am.png)
-
-![Screenshots](https://github.com/ElsieMay/02_homework_professional-portfolio/blob/main/images/Screen%20Shot%202022-03-03%20at%2012.11.07%20am.png)
-
-![Screenshots](https://github.com/ElsieMay/02_homework_professional-portfolio/blob/main/images/Screen%20Shot%202022-03-03%20at%2012.11.19%20am.png)
 
 ## Credits
 
