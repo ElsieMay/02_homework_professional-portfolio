@@ -42,7 +42,7 @@ https://www.w3schools.com/howto/howto_css_image_text.asp
 https://www.youtube.com/watch?v=gCPWMXC1ZDc
 https://www.youtube.com/watch?v=gor5BvT2z88&ab_channel=KarlHadwen
 
-## Credits
+## Contact
 
 My email is: elsiemaylawrie1@gmail.com.
 
