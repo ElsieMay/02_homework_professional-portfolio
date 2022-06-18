@@ -10,6 +10,7 @@ I learnt about code responsive design, media queries, a little bit of JavaScript
 - [Usage](#usage)
 - [Demo](#demo)
 - [Credits](#credits)
+- [Contact](#contact)
 - [License](#license)
 
 ## Installation
@@ -40,6 +41,12 @@ https://stackoverflow.com/questions/4191651/css-ahover-image-borders
 https://www.w3schools.com/howto/howto_css_image_text.asp
 https://www.youtube.com/watch?v=gCPWMXC1ZDc
 https://www.youtube.com/watch?v=gor5BvT2z88&ab_channel=KarlHadwen
+
+## Credits
+
+My email is: elsiemaylawrie1@gmail.com.
+
+My github username is: https://github.com/ElsieMay.
 
 ## License
 
