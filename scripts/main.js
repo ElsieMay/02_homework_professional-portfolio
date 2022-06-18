@@ -2,8 +2,11 @@ var Modalbtn = document.querySelector(".Modal-btn");
 var modalbg = document.querySelector(".modal-bg");
 var modalclose = document.querySelector(".modal-close");
 let slidePosition = 0;
+let slidePositionTech = 0;
 const slides = document.getElementsByClassName("carousel-card");
+const displays = document.getElementsByClassName("carousel-card-tech");
 const totalSlides = slides.length;
+const totalSlidesTech = displays.length;
 
 Modalbtn.addEventListener("click", function () {
 	modalbg.classList.add("bg-active");
@@ -58,4 +61,37 @@ function moveToPreviousSlide() {
 		slidePosition--;
 	}
 	updateSlidePosition();
+}
+
+document.getElementById("next-tech").addEventListener("click", function () {
+	moveToNextSlideTech();
+});
+document.getElementById("previous-tech").addEventListener("click", function () {
+	moveToPreviousSlideTech();
+});
+
+function updateSlidePositionTech() {
+	for (let display of displays) {
+		display.classList.remove("carousel-card--visible-tech");
+		display.classList.add("carousel-card--hidden-tech");
+	}
+	displays[slidePositionTech].classList.add("carousel-card--visible-tech");
+}
+
+function moveToNextSlideTech() {
+	if (slidePositionTech === totalSlidesTech - 1) {
+		slidePositionTech = 0;
+	} else {
+		slidePositionTech++;
+	}
+	updateSlidePositionTech();
+}
+
+function moveToPreviousSlideTech() {
+	if (slidePositionTech === 0) {
+		slidePositionTech = totalSlidesTech - 1;
+	} else {
+		slidePositionTech--;
+	}
+	updateSlidePositionTech();
 }
