@@ -30,7 +30,7 @@ The Github repository can be viewed via this link, https://github.com/ElsieMay/0
 
 ## Credits
 
-I was aided by the BCS Learning assistants Erik and Anders. They instructed me well.
+I was aided by the BCS Learning assistant. They instructed me well.
 
 I followed these links for tutorials and additional information;
 
