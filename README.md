@@ -22,7 +22,7 @@ The deployed application can be viewed via this link, https://elsiemay.github.io
 
 ## Demo
 
-![ Alt text](https://github.com/ElsieMay/02_homework_professional-portfolio/blob/main/images/videos/Elsie%20Lawrie%20Portfolio.gif) / ! [](Project. gif)
+![ Alt text](https://github.com/ElsieMay/02_homework_professional-portfolio/blob/main/images/videos/Elsie%20Lawrie%20Portfolio.gif)
 
 A demonstration of the deployed application can be viewed via this link, https://drive.google.com/file/d/1SV9mVmfQ79QO2gIiHXz30hBUUXMD8tVC/view.
 
