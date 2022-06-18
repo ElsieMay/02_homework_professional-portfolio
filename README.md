@@ -22,9 +22,7 @@ The deployed application can be viewed via this link, https://elsiemay.github.io
 
 ## Demo
 
-A demonstration of the deployed application can be viewed via this link,
-
-https://drive.google.com/file/d/1SV9mVmfQ79QO2gIiHXz30hBUUXMD8tVC/view.
+A demonstration of the deployed application can be viewed via this link, https://drive.google.com/file/d/1SV9mVmfQ79QO2gIiHXz30hBUUXMD8tVC/view.
 
 The Github repository can be viewed via this link, https://github.com/ElsieMay/02_homework_professional-portfolio.
 
