@@ -229,8 +229,9 @@ header {
 }
 
 .video {
-	display: block;
+	display: flex;
 	margin: 0 auto;
+	width: 80vw;
 }
 
 /* properties for h1 titles */
